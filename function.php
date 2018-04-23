@@ -23,10 +23,7 @@ function darab($param1, $param2, $param3 = 1)
 //Perlu menerima 3 parameter
 function tolak($param1, $param2, $param3 = 1)
 {
-    if (semak_int($param1) &&
-        semak_int($param2) &&
-        semak_int($param3)
-    ) {
+    if (semak_int($param1) && semak_int($param2) && semak_int($param3)) {
         return $param1 - $param2 - $param3;
     } else {
         return 'Sila semak nilai parameter';
